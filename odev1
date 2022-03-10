@@ -1,0 +1,75 @@
+using System;
+
+namespace console
+{
+  static void Main(string[] args)
+  {
+      // patika.dev eğitimi için yollanması istenen ödev
+      int deger = 2;
+      string degisken = null;
+      byte b = 5;
+      sbyte c = 3;
+      short s = 5;
+      ushort us = 6;
+      Int16 i16 = 2;
+      int i = 2;
+      Int32 i32= 2;
+      Int64 i64 = 2;
+      uint ui = 2;
+      long l = 4;
+      ulong ul = 4;
+      float f = 5 ;
+      double d = 5;
+      decimal de = 5;
+      char ch = '2';
+      string str = "Beyza";
+      bool b1 = true;
+      bool b2 = false;
+      DateTime dt = DateTime.Now;
+      Console.WriteLine(dt);
+
+      object o1 = "x";
+      object o2 = 'y';
+      object o3 = 4;
+      object o4 = 4.3;
+
+      string str1 = string.Empty;
+      str1 = "yenideneme";
+      string s1 = "yeni";
+      string s2 = "deneme";
+      string birlesim = s1 + " " + s2;
+
+      int first = 3;
+      int second = 4;
+      int summ = first + second;
+
+      bool bool1 = 10>2;
+
+      string str20 = "20";
+      int int20 = 20;
+      string yenideger = str20 +int20.ToString();
+      Console.WriteLine(yenideger);
+
+      int in21 = int20 + Convert.ToInt32(str20);
+      Console.WriteLine(in21);
+
+      int22 = int20 + int.Parse(str20);
+      Console.WriteLine(int22);
+
+      string datetime1 = DateTime.Now.ToString("dd.MM.yyyy");
+      Console.WriteLine(datetime1);
+
+      string datetime2 = DateTime.Now.ToString("dd/MM/yyyy");
+      Console.WriteLine(datetime2);
+
+      string datetime3 = DateTime.Now.ToString("HH:mm");
+      Console.WriteLine(datetime3);
+
+      string input = Console.ReadLine();
+      Console.WriteLine(input + " is the one and only input of this trial");
+
+
+
+
+  }
+}
