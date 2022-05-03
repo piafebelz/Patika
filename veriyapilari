@@ -4,8 +4,10 @@
   2) [2,6,16,22,18,27] 
   3) [2,6,16,22,18,27]
   4) [2,6,16,18,22,27]
+  5) [2,6,16,18,22,27]
+  6) [2,6,16,18,22,27]
   
-  O(n^2) time complexity
+  O(n^2) time complexity --> n=6 O(36)
   
   18 sayısı average case sınıfına giriyor.
   
